@@ -1,0 +1,52 @@
+body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa; /* Set a light background color */
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff; /* Set a white background color for the container */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+        }
+        h1 {
+            text-align: center;
+            color: #007bff; /* Set heading color */
+        }
+        p {
+            text-align: center;
+            color: #495057; /* Set paragraph text color */
+        }
+        .submitmsg {
+            text-align: center;
+            color: #28a745; /* Set success message color */
+            margin-bottom: 20px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="phone"],
+        input[type="date"],
+        input[type="time"],
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ced4da; /* Set input border color */
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #007bff; /* Set button background color */
+            color: #fff; /* Set button text color */
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3; /* Change button background color on hover */
+        }
